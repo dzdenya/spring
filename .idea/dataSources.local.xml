@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="smart3@192.168.15.22" uuid="480d5dda-af6a-4a22-a59c-f17c22ac479e">
+      <database-info product="MySQL" version="10.1.26-MariaDB-0+deb9u1" jdbc-version="4.2" driver-name="MariaDB connector/J" driver-version="2.2.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:spring</introspection-schemas>
+    </data-source>
+    <data-source name="smart3@192.168.15.22 [2]" uuid="79c0152c-5fb0-400e-b988-39db12449af4">
+      <database-info product="MySQL" version="10.1.26-MariaDB-0+deb9u1" jdbc-version="4.2" driver-name="MariaDB connector/J" driver-version="2.2.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:smart3</introspection-schemas>
+    </data-source>
+  </component>
+</project>
